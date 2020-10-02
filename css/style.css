@@ -76,13 +76,15 @@ nav .right-nav,.central-nav,.left-nav{
 }
 
 .titolo{
-  text-align: center;
+  height:650px;
+  text-align:center;
+  color:white;
   position:relative;
-  color: white;
 }
 
-.titolo > .container{
-  position:absolute;
+.titolo .container{
+  position: absolute;
   top:50%;
-  transform:translateY(-50%);
+  left:50%;
+  transform:translate(-50%, -50%);
 }
