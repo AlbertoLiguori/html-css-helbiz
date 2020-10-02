@@ -6,6 +6,7 @@
 }
 
 body{
+  font-size: 0.8rem;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -38,12 +39,13 @@ nav .right-nav,.central-nav,.left-nav{
 
 .left-nav img{
   position:absolute;
+  height:20px;
   top:50%;
   transform: translateY(-50%);
 }
 
 .central-nav ul li{
-  margin-left:30px;
+  margin-left:20px;
   display:inline-block;
   line-height: 98px;
 }
@@ -60,7 +62,7 @@ nav .right-nav,.central-nav,.left-nav{
 }
 
 .right-nav ul li{
-  margin-left:30px;
+  margin-left:20px;
   display:inline-block;
   line-height: 98px;
 }
