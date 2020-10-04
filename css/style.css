@@ -113,12 +113,63 @@ nav .right-nav,.central-nav,.left-nav{
   transform:translate(-50%, -50%);
 }
 
-.titolo h2,img{
+.titolo h2{
   margin-top:20px;
 }
 
 .titolo img{
+  margin-top:20px;
   display:inline-block;
   height:70px;
   padding:10px;
+}
+
+section img {
+  /* height:600px; */
+}
+
+.go-bike{
+  text-align: center;
+  margin-top:30px;
+  line-height: 50px;
+}
+
+.go-bike h4{
+  font-size:20px;
+}
+
+.go-bike img{
+  width:100%;
+}
+
+.go-bike .logo{
+  height:50px;
+  padding:15px;
+  margin-top:60px;
+}
+
+.bg-grey{
+  background-color: #FAFAFA;
+}
+
+.go-bike .right-row{
+  padding-left:15px;
+}
+
+.go-bike .left-row{
+  padding-right:15px;
+
+}
+
+@media screen and (max-width:768px){
+
+  .go-bike .right-row{
+    padding:15px;
+  }
+
+  .go-bike .left-row{
+    padding:15px;
+  }
+
+
 }
