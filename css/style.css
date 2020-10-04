@@ -161,6 +161,25 @@ section img {
 
 }
 
+
+/* HOW-TO */
+
+.how-to{
+  height: 650px;
+  background-image: url("../img/section-3-bg.jpg");
+  background-repeat:no-repeat;
+}
+
+.how-to img{
+  width:100%;
+  margin-top:150px;
+}
+
+.text-container{
+  margin-top:700px;
+  padding-left: 50px;
+}
+
 @media screen and (max-width:768px){
 
   .go-bike .right-row{
@@ -170,6 +189,5 @@ section img {
   .go-bike .left-row{
     padding:15px;
   }
-
 
 }
