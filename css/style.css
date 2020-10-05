@@ -161,7 +161,7 @@ nav .right-nav,.central-nav,.left-nav{
 /* SECTION-2 HOW-TO*/
 .how-to{
   background-image: url("../img/section-3-bg.jpg");
-  background-repeat:no-repeat;
+  background-repeat:repeat-x;
   background-size:auto 500px ;
 }
 
@@ -186,7 +186,13 @@ nav .right-nav,.central-nav,.left-nav{
 	line-height: 28px;
 }
 
-
+.foto-1{
+	background-image: url(../img/scooter.jpg);
+	color:white;
+	text-align: center;
+	line-height: 3.5rem;
+	padding-top: 100px;
+}
 
 
 @media screen and (max-width:768px){
