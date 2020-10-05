@@ -19,7 +19,9 @@ body{
   width:100%;
 }
 
-/* JUMBOTRON */
+.bg-grey{
+  background-color: #FAFAFA;
+}
 
 .font-semibold {
     font-size:3rem;
@@ -27,18 +29,12 @@ body{
     font-family: "neue-haas-grotesk-display",sans-serif;
 }
 
-.jumbotron{
-  background-image: url("../img/jumbotron-bg.jpg");
-  background-size: cover;
-  height:700px;
-}
-
+/* NAV */
 nav{
   background-color: white;
 }
 
 nav .right-nav,.central-nav,.left-nav{
-  /* height:100px; */
 }
 
 .left-nav{
@@ -99,6 +95,13 @@ nav .right-nav,.central-nav,.left-nav{
 
 }
 
+/* JUMBOTRON */
+.jumbotron{
+  background-image: url("../img/jumbotron-bg.jpg");
+  background-size: cover;
+  height:700px;
+}
+
 .titolo{
   height:650px;
   text-align:center;
@@ -124,10 +127,7 @@ nav .right-nav,.central-nav,.left-nav{
   padding:10px;
 }
 
-section img {
-  /* height:600px; */
-}
-
+/* SECTION-1 GO-BIKE*/
 .go-bike{
   text-align: center;
   margin-top:30px;
@@ -148,10 +148,6 @@ section img {
   margin-top:60px;
 }
 
-.bg-grey{
-  background-color: #FAFAFA;
-}
-
 .go-bike .right-row{
   padding-left:15px;
 }
@@ -162,23 +158,36 @@ section img {
 }
 
 
-/* HOW-TO */
-
+/* SECTION-2 HOW-TO*/
 .how-to{
-  height: 650px;
   background-image: url("../img/section-3-bg.jpg");
   background-repeat:no-repeat;
+  background-size:auto 500px ;
 }
 
-.how-to img{
-  width:100%;
-  margin-top:150px;
+.iphone-bg{
+  height:700px;
+  background-image: url("../img/iphone-frame.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: auto 500px;
+	border:3px solid red;
 }
 
-.text-container{
-  margin-top:700px;
-  padding-left: 50px;
+.how-to .left-row{
+	padding-top:530px;
+	padding-right:60px;
+	font-size: 24px;
 }
+
+.how-to .right-row{
+	padding-top:560px;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+
+
 
 @media screen and (max-width:768px){
 
@@ -189,5 +198,14 @@ section img {
   .go-bike .left-row{
     padding:15px;
   }
+
+	.how-to .left-row{
+		padding-top:700px;
+		padding-right:0px;
+	}
+
+	.how-to .right-row{
+		padding-top:20px;
+	}
 
 }
