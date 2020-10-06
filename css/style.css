@@ -29,6 +29,12 @@ body{
     font-family: "neue-haas-grotesk-display",sans-serif;
 }
 
+.font-lightbold {
+    font-size:24px;
+    font-weight:300;
+    font-family: "neue-haas-grotesk-display",sans-serif;
+}
+
 /* NAV */
 nav{
   background-color: white;
@@ -154,7 +160,6 @@ nav .right-nav,.central-nav,.left-nav{
 
 .go-bike .left-row{
   padding-right:15px;
-
 }
 
 
@@ -188,12 +193,40 @@ nav .right-nav,.central-nav,.left-nav{
 
 .foto-1{
 	background-image: url(../img/scooter.jpg);
+	background-repeat: no-repeat;
 	color:white;
 	text-align: center;
 	line-height: 3.5rem;
-	padding-top: 100px;
+	padding:130px;
+	margin-bottom: 30px;
+	margin-top: 40px;
 }
 
+.foto-2{
+	background-color: #364757;
+	text-align: center;
+	color:white;
+	line-height: 3.5rem;
+	padding-top:30px;
+	height:600px;
+}
+
+.foto-2 img{
+	height:350px;
+	margin-top:50px;
+	vertical-align: bottom;
+}
+
+.foto-3{
+	background-image: url("../img/city.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:600px;
+	line-height: 3.5rem;
+	text-align: center;
+	color:white;
+	padding-top:30px;
+}
 
 @media screen and (max-width:768px){
 
